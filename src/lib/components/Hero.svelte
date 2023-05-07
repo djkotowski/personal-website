@@ -1,6 +1,5 @@
 <script lang="ts">
   export let title: string;
-  export let text: string;
   export let imageUrl: string;
   export let imageAlt: string;
 </script>
