@@ -12,6 +12,9 @@ import Hero from "./components/Hero.svelte";
     <p class="mt-6 text-lg lg:text-xl text-gray-300">
       Senior web software engineer with strong technical and interpersonal skills
     </p>
+    <p class="mt-4 text-lg lg:text-xl text-gray-300">
+      Based in Chicago, Illinois
+    </p>
     <p class="mt-6 text-yellow-600 italic">
       Note: This webpage is a work in progress.
     </p>
