@@ -1,0 +1,40 @@
+name: deploy
+run-name: "${{ github.actor }} is deploying ${{ github.sha }}"
+on:
+  push:
+    branches:
+      - 'master'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install Dependencies
+        run: |
+          npm install -g yarn
+          yarn install
+      - name: Build solution
+        run: yarn build
+      - name: Archive artifacts
+        uses: actions/upload-pages-artifact@v4
+        with:
+          name: build-artifacts
+          path: dist/
+  deploy:
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
