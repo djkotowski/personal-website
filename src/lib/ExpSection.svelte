@@ -21,7 +21,7 @@
       <hr class="border-gray-700 my-4" />
 
       <h5 class="font-semibold">Tech used:</h5>
-      <p>Ruby on Rails, React, TypeScript, Alpine.js, MySQL, Web Components, AWS, Redis, ActiveJob/Sidekiq</p>
+      <p>Ruby on Rails, React, TypeScript, Alpine.js, MySQL, AWS, Redis, ActiveJob/Sidekiq</p>
     </li>
     <li class="rounded-2xl bg-gray-900 mx-2 px-8 py-10">
       <h2 class="text-2xl font-bold ">
@@ -44,7 +44,7 @@
       <hr class="border-gray-700 my-4" />
 
       <h5 class="font-semibold">Tech used:</h5>
-      <p>Ruby on Rails, React, TypeScript, Alpine.js, MySQL, AWS, Redis, Sidekiq</p>
+      <p>Ruby on Rails, React, TypeScript, MySQL, AWS, Redis, Sidekiq</p>
     </li>
     <li class="rounded-2xl bg-gray-900 mx-2 px-8 py-10">
       <h2 class="text-2xl font-bold ">
