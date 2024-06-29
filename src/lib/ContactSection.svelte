@@ -17,13 +17,13 @@
       </Link>
     </div>
     <div class="flex-initial">
-      <Link href="https://github.com/djkotowski" target="_blank">
+      <Link href="https://github.com/djkotowski" target="_blank" title="Github">
         <GithubIcon class="w-12 h-12 lg:w-20 lg:h-20" />
         <div class="sr-only">Go to my Github account (@djkotowski)</div>
       </Link>
     </div>
     <div class="flex-initial">
-      <Link href="https://linkedin.com/in/djkotowski" target="_blank">
+      <Link href="https://linkedin.com/in/djkotowski" target="_blank" title="LinkedIn">
         <LinkedInIcon class="w-12 h-12 lg:w-20 lg:h-20" />
         <div class="sr-only">Go to my LinkedIn account (@djkotowski)</div>
       </Link>
