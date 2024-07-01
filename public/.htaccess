@@ -1,3 +1,0 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^www\.dankotowski.dev
-RewriteRule ^(.*)$ https://dankotowski.dev/$1 [R=301,L]
