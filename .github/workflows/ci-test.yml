@@ -1,0 +1,26 @@
+name: ci-test
+run-name: "${{ github.actor }} is checking ${{ github.sha }}"
+on:
+  pull_request: {}
+  push:
+      branches:
+      - 'main'
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install Dependencies
+        run: |
+          npm install -g yarn
+          yarn install
+      - name: Lint solution
+        run: yarn check
