@@ -1727,7 +1727,7 @@ __metadata:
     postcss: ^8.4.39
     svelte: ^3.58.0
     svelte-check: ^3.3.1
-    tailwind-merge: ^1.12.0
+    tailwind-merge: ^2.5.4
     tailwindcss: ^3.3.2
     tslib: ^2.5.0
     typescript: ^5.0.4
@@ -2306,10 +2306,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwind-merge@npm:^1.12.0":
-  version: 1.12.0
-  resolution: "tailwind-merge@npm:1.12.0"
-  checksum: 5ef323eec1051c4aa9626e29498f6c058dbbb242ca8156aa298de41ada3eda05a8f5f1260a57112c155f63b2e94c4b4ccab5386d60fae54de07aac6d9dbc60e4
+"tailwind-merge@npm:^2.5.4":
+  version: 2.5.4
+  resolution: "tailwind-merge@npm:2.5.4"
+  checksum: c22adafebd23fc3c7f0ad25935791c10816d4a46460f000ebca4de8d8d22f7652a3746a3d9146599a4648aa92ab390340f6ded04b9152afd2b75fd96929399db
   languageName: node
   linkType: hard
 
