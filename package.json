@@ -26,6 +26,6 @@
   },
   "packageManager": "yarn@3.5.1",
   "dependencies": {
-    "tailwind-merge": "^2.5.5"
+    "tailwind-merge": "^3.0.1"
   }
 }
