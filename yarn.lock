@@ -977,12 +977,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esrap@npm:^1.4.3":
-  version: 1.4.5
-  resolution: "esrap@npm:1.4.5"
+"esrap@npm:^1.4.6":
+  version: 1.4.6
+  resolution: "esrap@npm:1.4.6"
   dependencies:
     "@jridgewell/sourcemap-codec": ^1.4.15
-  checksum: 469b455606281e21f214ee5ad2d1887b0a8dc442b959e57e0878eaed337efba1a048d1bad27833e6a5636879511e8b86338f497839d5aaf804afdfce05736068
+  checksum: 79af2b8e4e3f57a5604e839aacfd005498f1b2f1ee8ce3b99ddb1cb728935510e54169eb22a06a6f1c6b412b36e1150e2a38bee07cfe8491cbda0997d33fb428
   languageName: node
   linkType: hard
 
@@ -1629,7 +1629,7 @@ __metadata:
     "@tailwindcss/vite": ^4.1.1
     "@tsconfig/svelte": ^5.0.4
     husky: ^9.0.11
-    svelte: ^5.23.0
+    svelte: ^5.25.6
     svelte-check: ^4.1.5
     tailwind-merge: ^3.1.0
     tailwindcss: ^4.1.1
@@ -1926,9 +1926,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte@npm:^5.23.0":
-  version: 5.23.0
-  resolution: "svelte@npm:5.23.0"
+"svelte@npm:^5.25.6":
+  version: 5.25.6
+  resolution: "svelte@npm:5.25.6"
   dependencies:
     "@ampproject/remapping": ^2.3.0
     "@jridgewell/sourcemap-codec": ^1.5.0
@@ -1939,12 +1939,12 @@ __metadata:
     axobject-query: ^4.1.0
     clsx: ^2.1.1
     esm-env: ^1.2.1
-    esrap: ^1.4.3
+    esrap: ^1.4.6
     is-reference: ^3.0.3
     locate-character: ^3.0.0
     magic-string: ^0.30.11
     zimmerframe: ^1.1.2
-  checksum: 24f59b6b38a902c9120ac7727bddcaa891e2267ec49adcf6970fe6886cf0671e233817c98429b3b1d866535352e7ba01f841ac53720634701d397e21f032bf7b
+  checksum: 37bc9d0db30b7f2ed933d3cede120923cb8fed4a031854e04bf3f7d6ae43ac2c04ea9ee28bbe521887cafa299896d74757138408c68d2d809eae67437adc5add
   languageName: node
   linkType: hard
 
