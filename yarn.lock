@@ -1949,9 +1949,9 @@ __metadata:
   linkType: hard
 
 "tailwind-merge@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "tailwind-merge@npm:3.1.0"
-  checksum: 013472ef93e8fd47b383e43d36171b6b5075121db63b8850393c59dd4c5b9dff4d086df5522190f24e760450958b2500adef60dc935a12c2e904d3f6906a4e22
+  version: 3.2.0
+  resolution: "tailwind-merge@npm:3.2.0"
+  checksum: 942e86ef6fffd9b9bdb6ab41626ef013ebebca001e1b7c183a2c426ea7169a915d47485c2c4d73a91f4ff390df99645c262e47b8f0be8a7e18837b512f196068
   languageName: node
   linkType: hard
 
