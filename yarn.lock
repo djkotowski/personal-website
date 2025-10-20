@@ -1955,10 +1955,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:4.1.1, tailwindcss@npm:^4.1.1":
+"tailwindcss@npm:4.1.1":
   version: 4.1.1
   resolution: "tailwindcss@npm:4.1.1"
   checksum: bf85c7f0f051ceabfe6981bedc9ad8c0eed0cb37f9269066cc00c4b0575c4689c01e461027a82fde8534f7b4c5151d63d48e19e808fce60171d73ea759a81464
+  languageName: node
+  linkType: hard
+
+"tailwindcss@npm:^4.1.1":
+  version: 4.1.15
+  resolution: "tailwindcss@npm:4.1.15"
+  checksum: 988fef55192d8c07224ce338b4d4d748406b8681175620fbdade9dae6ee3dfc5145e738fdaa937c610f73e488deb480c893a1f3e34110f23384db5f0f5b664e7
   languageName: node
   linkType: hard
 
