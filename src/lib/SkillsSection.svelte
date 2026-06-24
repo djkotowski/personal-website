@@ -14,13 +14,17 @@
         </tr>
         <tr>
           <th class="block sm:table-cell font-bold w-auto pr-3 lg:pr-5 text-left">Frontend:</th>
-          <td class="block pb-4 sm:pb-0 sm:table-cell text-left">ES6, TypeScript, React, Redux, CSS/Sass, Webpack,
-            Vite
+          <td class="block pb-4 sm:pb-0 sm:table-cell text-left">ES6, TypeScript, React, Redux, CSS/Sass, Vite,
+            Webpack
           </td>
         </tr>
         <tr>
           <th class="block sm:table-cell font-bold w-auto pr-3 lg:pr-5 text-left">Data:</th>
           <td class="block pb-4 sm:pb-0 sm:table-cell text-left">PostgreSQL, MySQL, Redis, Elasticsearch</td>
+        </tr>
+        <tr>
+          <th class="block sm:table-cell font-bold w-auto pr-3 lg:pr-5 text-left">AI Tools:</th>
+          <td class="block pb-4 sm:pb-0 sm:table-cell text-left">Claude Code, Github Copilot</td>
         </tr>
       </tbody>
     </table>
