@@ -13,7 +13,7 @@ import Hero from "./components/Hero.svelte";
       Senior web software engineer with strong technical and interpersonal skills
     </p>
     <p class="mt-4 text-lg lg:text-xl text-gray-300">
-      Based in San Antonio, Texas
+      Based in New Braunfels, Texas
     </p>
   </Hero>
 </div>
