@@ -1,0 +1,5 @@
+# esbuild ships its native binary via an optional dependency; its postinstall
+# is only a launcher optimization. Allowed so pnpm 11 doesn't block install on
+# the undecided build script.
+allowBuilds:
+  esbuild: true
