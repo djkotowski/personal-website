@@ -32,4 +32,4 @@ A single-page, statically-generated personal résumé site — no router, no bac
 
 ## Deploy
 
-Pushing to `main` triggers the `deploy` workflow: `pnpm build` → upload `dist/` → GitHub Pages (https://dankotowski.dev). Note CI uses Node 20, while local dev is pinned to Node 22.14.0 in `.tool-versions`.
+Pushing to `main` triggers the `deploy` workflow: `pnpm build` → upload `dist/` → GitHub Pages (https://dankotowski.dev). CI reads its Node version from `.tool-versions` (pinned to 22.14.0), matching local dev — pnpm 11 requires Node >=22.13.
