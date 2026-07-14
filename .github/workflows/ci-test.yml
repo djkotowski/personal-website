@@ -10,6 +10,7 @@ concurrency:
   cancel-in-progress: true
 jobs:
   check:
+    name: CI
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
