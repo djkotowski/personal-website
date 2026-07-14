@@ -25,7 +25,7 @@ jobs:
       - name: Build solution
         run: pnpm build
       - name: Archive artifacts
-        uses: actions/upload-pages-artifact@v3.0.1
+        uses: actions/upload-pages-artifact@v5.0.0
         with:
           path: dist/
   deploy:
