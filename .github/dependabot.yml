@@ -5,11 +5,11 @@ updates:
     reviewers:
       - "djkotowski"
     schedule:
-      interval: "daily"
+      interval: "weekly"
     versioning-strategy: "increase-if-necessary"
   - package-ecosystem: "github-actions"
     directory: "/"
     reviewers:
       - "djkotowski"
     schedule:
-      interval: "daily"
+      interval: "weekly"
