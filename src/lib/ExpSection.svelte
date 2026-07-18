@@ -103,4 +103,8 @@
       <p>C#, ASP.NET MVC 3, Microsoft SQL Server, jQuery, Manhattan SCALE</p>
     </li>
   </ul>
+
+  <p class="text-center pt-10">
+    Please see my <Link href="https://drive.proton.me/urls/2AY1WCCC54#BcxvDzVu1IM8" target="_blank" rel="nofollow">resumé</Link> for more details.
+  </p>
 </section>
