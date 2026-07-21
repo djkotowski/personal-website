@@ -1,18 +1,22 @@
 name: deploy
-run-name: "${{ github.actor }} is deploying ${{ github.sha }}"
+run-name: "${{ github.actor }} is deploying ${{ github.event.workflow_run.head_sha }}"
 on:
-  push:
-    branches:
-      - 'main'
+  workflow_run:
+    workflows: ['ci-test']
+    types: [completed]
+    branches: ['main']
 concurrency:
   group: pages
   cancel-in-progress: false
 jobs:
   build:
+    if: github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.workflow_run.head_sha }}
       - name: Setup pnpm
         uses: pnpm/action-setup@v5
       - name: Setup Node.js
@@ -41,6 +45,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.workflow_run.head_sha }}
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
@@ -48,6 +54,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          tag="deploy-$(date +%Y-%m-%d)-${GITHUB_SHA::7}"
-          git tag "$tag"
+          sha="${{ github.event.workflow_run.head_sha }}"
+          tag="deploy-$(date +%Y-%m-%d)-${sha::7}"
+          git tag "$tag" "$sha"
           git push origin "$tag"
